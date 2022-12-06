@@ -82,6 +82,12 @@
   margin-top: 20px;
   font-weight: bold;
 }
+
+ul {
+  /* list-style-image: url('./Components/Navbar/assets/check-mark.png'); */
+  list-style: square url('./Components/Navbar/assets/check-mark.png');
+}
+
 .box1 {
   flex: 1;
 }
