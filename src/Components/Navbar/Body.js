@@ -1,4 +1,5 @@
 import React from 'react';
+import free from "./assets/circleContainer21.png";
 
 const Body = () => {
     return ( 

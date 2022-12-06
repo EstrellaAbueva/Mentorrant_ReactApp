@@ -7,7 +7,6 @@
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
-  border: 2px solid black;
   height: min-content;
 }
 
@@ -66,14 +65,18 @@
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 10px;
-  height: 350px;
+  height: 450px;
 }
 
 .flex-container div{
   text-align: center;
-  margin: 0 10px;
+  margin: 20px 10px;
   border: 2px solid black;
   border-radius: 30px;
+}
+
+.flex-container div h1 {
+  margin-top: 60px;
 }
 
 .flex-container div li {
@@ -83,9 +86,12 @@
   font-weight: bold;
 }
 
+.logo {
+
+}
+
 ul {
   /* list-style-image: url('./Components/Navbar/assets/check-mark.png'); */
-  list-style: square url('./Components/Navbar/assets/check-mark.png');
 }
 
 .box1 {
