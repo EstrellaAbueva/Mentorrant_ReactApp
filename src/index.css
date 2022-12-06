@@ -12,6 +12,7 @@
 }
 
 .navbar {
+  display: flex;
   height: auto;
 }
 
@@ -19,6 +20,7 @@
   height: 30%;
   width: 30%;
   margin-left: -50px;
+  flex: 1;
 }
 
 * {
@@ -29,10 +31,15 @@
 
 .navbar h1 {
   color: #0000FF;
-  max-width: fit-content;
+  padding-top: 100px;
+  align-content: center;
+  margin-left: -75px;
+  font-size: 40px;
+  flex: 1;
 }
 
 .navbar .links {
+  padding-top: 120px;
   margin-left: auto;
   max-width: fit-content;
 }
