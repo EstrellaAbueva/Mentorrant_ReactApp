@@ -84,8 +84,7 @@
 }
 
 ul {
-  /* list-style-image: url('./Components/Navbar/assets/check-mark.png'); */
-  list-style: square url('./Components/Navbar/assets/check-mark.png');
+  text-align: justify;
 }
 
 .box1 {
