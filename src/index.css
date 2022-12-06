@@ -29,10 +29,12 @@
 
 .navbar h1 {
   color: #0000FF;
+  max-width: fit-content;
 }
 
 .navbar .links {
   margin-left: auto;
+  max-width: fit-content;
 }
 
 .navbar a {
