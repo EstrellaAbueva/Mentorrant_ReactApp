@@ -1,0 +1,12 @@
+.faq-h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.faq-qz {
+    margin-bottom: 45px;
+    font-size: 25px;
+    margin-left: 25px;
+    text-align: justify;
+}
