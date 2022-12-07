@@ -1,0 +1,23 @@
+.image{
+    z-index: -1;
+    width: 1500px;
+    height: 1000px;
+    align-items: center;
+    background-position-x: 25%;
+    opacity:0.5;
+}
+
+body {
+  background: url('./assets/rectangle56.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 1500px 1000px;
+}
+
+.settings{
+  width: 30px;
+}
+
+.pen{
+  width: 30px;
+}
