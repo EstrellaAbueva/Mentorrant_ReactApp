@@ -25,3 +25,58 @@ body {
 .home_button{
   width: 30px;
 }
+
+.nav h1 {
+  color: #0000FF;
+  padding-top: 50px;
+  align-content: center;
+  margin-left: -60px;
+  font-size: 45px;
+  flex: 1;
+}
+
+a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.nav {
+  display: flex;
+  height: auto;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+  margin-left: -150px;
+  flex: 1;
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: min-content;
+}
+
+.home_button img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100px;
+  margin-top: 2%;
+  margin-right: 2%;
+}

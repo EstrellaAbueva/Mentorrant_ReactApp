@@ -8,20 +8,22 @@ import './MenteeProfile.css';
 const MenteeProfile = () => {
     return (
         <div className="general-profile-mente">
-            {/* <figure className="home_button">
+            { <figure className="home_button">
                 <img src={home} alt="home_button"  />
-            </figure> */}
+            </figure> }
             
-            <nav className="nav">
+        <div className ="container">
+            <nav className="navbar">
                 <img className ="logo" alt="" src= {mentorrantHighReso} />
                 <h1>Mentorrant</h1>
                 <div className="links">
-                    <a href="https://www.youtube.com/">Mentor</a>
-                    <a href="https://www.facebook.com/">Mentee</a>
+                    <a href="https://www.youtube.com/">Our Services</a>
+                    <a href="https://www.facebook.com/">Our Team</a>
                     <a href="https://www.instagram.com/"><img className = "pen" src = {pen} alt = "pen"/></a>
                     <a href="https://www.w3schools.com/css/"><img className = "settings" src = {settings} alt = "settings" /></a>
                 </div>
             </nav>
+        </div>
             
             {/* <div className="profile">
                 <div className="profile-picture">
