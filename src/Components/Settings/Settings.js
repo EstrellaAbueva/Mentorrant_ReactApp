@@ -1,14 +1,14 @@
 import React from 'react';
-import home from './Assets/home.png';
-import logo from './Assets/Mentorrant Logo.png';
-import postIt from './Assets/post-it.png';
-import ebooks from './Assets/ebooks.png';
-import match from './Assets/match.png';
-import settings from './Assets/settings.png';
-import user from './Assets/user.png';
-import payment from './Assets/Payment.png';
-import notification from './Assets/Notification Bell.png';
-import session from './Assets/session.png';
+import home from './assets/home.png';
+import logo from './assets/Mentorrant Logo.png';
+import postIt from './assets/post-it.png';
+import ebooks from './assets/ebooks.png';
+import match from './assets/match.png';
+import settings from './assets/settings.png';
+import user from './assets/user.png';
+import payment from './assets/Payment.png';
+import notification from './assets/Notification Bell.png';
+import session from './assets/session.png';
 import './Assets.css';
 
 const HomeButton = () => {

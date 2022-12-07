@@ -1,0 +1,13 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 1500px 750px;
+    background-position: center;
+  }
+
+.image{
+    z-index: -5;
+    width: 1500px;
+    height: 1000px;
+    align-items: center;
+    opacity:0.5;
+}
