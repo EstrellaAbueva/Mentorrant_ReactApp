@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Slabo 27px');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* base styles */
 
@@ -37,8 +37,17 @@ body {
 .mentorrant {
   margin-left: -50px;
   display: flex;
-  font-family: "Slabo 27px";
+  font-family: "Quicksand";
   font-size: 75px;
   color: rgb(53, 11, 202);
   margin-top: 150px;
+}
+
+.title {
+  margin-top: 100px;
+  margin-left: 50px;
+  
+  font-family: "Slabo 27px";
+  font-size: 75px;
+  color: rgb(53, 11, 202);
 }
