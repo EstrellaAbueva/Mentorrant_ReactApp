@@ -1,20 +1,16 @@
+import './LandingPage.css';
 import mentorrantHighReso from "./assets/mentorrantHighReso.png";
 
 const LandingPage = () => {
     return (
-    <div className ="container">
-    <nav className="navbar">
-      <img className ="logo" alt="" src= {mentorrantHighReso} />
-      <h1>Mentorrant</h1>
-      <div className="links">
-        <a href="/">Our Services</a>
-        <a href="/">Our Team</a>
-        <a href="/">FAQ</a>
-        <a href="/">Contact Us</a>
-    </div>
-    </nav>
-    </div>
-      );
+      <div className = "top-container">
+        <div className = "column">
+        <img className = "logo" src = {mentorrantHighReso} alt = "Mentorrant Logo" />
+        </div>
+        <div className = "column">
+        </div>
+      </div>
+    );
 }
  
 export default LandingPage;
