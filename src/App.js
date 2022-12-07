@@ -1,15 +1,20 @@
 import './App.css';
 import Body from './Components/Navbar/Body';
-import Navbar from './Components/Navbar/Navbar';
 import Faq from "./Components/FAQ/Faq";
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
+import NavbarLink from './Components/Navbar/NavbarLink';
 
 function App() {
   return (
-    <div className = "Navbar">
-      <Navbar />
-      <Body />
-    </div>
+    <>
+      <Router>
+      <NavbarLink/>
+        <Routes>
+          <Route path='/body' element = { <Body/> } />
+          <Route path='/faq' element = { <Faq/> } />
+          </Routes>
+      </Router>
+    </>
   );
 }
 
