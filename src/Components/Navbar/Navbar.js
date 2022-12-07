@@ -1,5 +1,7 @@
 import mentorrantHighReso from "./assets/mentorrantHighReso.png";
 import React from 'react';
+import './Navbar.css';
+import './Body.css';
 
 const Navbar = () => {
     return (
