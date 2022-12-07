@@ -8,11 +8,11 @@ import './MenteeProfile.css';
 const MenteeProfile = () => {
     return (
         <div className="general-profile-mente">
-            <figure className="home_button">
+            {/* <figure className="home_button">
                 <img src={home} alt="home_button"  />
-            </figure>
+            </figure> */}
             
-            <nav className="navbar">
+            <nav className="nav">
                 <img className ="logo" alt="" src= {mentorrantHighReso} />
                 <h1>Mentorrant</h1>
                 <div className="links">
