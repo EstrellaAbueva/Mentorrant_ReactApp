@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Slabo 27px');
 
 /* base styles */
 
@@ -24,11 +24,21 @@ body {
 }
 
 .logo {
-  margin-top: 50px;
-  margin-left: -20px;
+  margin-top: 90px;
+  margin-left: -40px;
+  float: left;
   width: 300px;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mentorrant {
+  margin-left: -50px;
+  display: flex;
+  font-family: "Slabo 27px";
+  font-size: 75px;
+  color: rgb(53, 11, 202);
+  margin-top: 150px;
 }
