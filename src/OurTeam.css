@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-right: -20px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    clip-path: circle();
+    
+}
+
+.box {
+    flex: 1;
+}
