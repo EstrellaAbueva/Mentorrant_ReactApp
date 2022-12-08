@@ -4,7 +4,6 @@ import Faq from "./Components/FAQ/Faq";
 import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
 import NavbarLink from './Components/Navbar/NavbarLink';
 import OurTeam from './OurTeam';
-
 function App() {
   return (
     <>
