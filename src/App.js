@@ -4,6 +4,7 @@ import Faq from "./Components/FAQ/Faq";
 import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
 import NavbarLink from './Components/Navbar/NavbarLink';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
+import MentorProfile from './Components/MentorProfile/MentorProfile';
 
 function App() {
   // return (
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <div className = "Navbar">
-      <MenteeProfile/>
+      <MentorProfile/>
     </div>
   );
 }

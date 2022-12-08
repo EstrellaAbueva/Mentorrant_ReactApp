@@ -90,6 +90,7 @@ a:hover {
   font-family: arial;
   margin-top: 20px;
   padding-top: 1%;
+  margin-bottom: 5%;
 }
 
 .title {
@@ -143,7 +144,7 @@ button:hover {
 }
 
 .aj {
-  margin-top: 4%; 
+  margin-top: 2%; 
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -179,4 +180,85 @@ h1:hover {
 p {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;;
+}
+
+.tg1  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.tg1 td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;font-family
+    :Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg1 th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg1 .name{
+    text-align:center;
+    vertical-align:top;
+    font-weight: bold;
+}
+
+h5 {
+    margin-left: 25%;
+    text-align: left;
+}
+
+h5:hover {
+    opacity: 0.5;
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-0lax{
+    text-align:left;
+    vertical-align:top;
+    font-weight: bold;
 }

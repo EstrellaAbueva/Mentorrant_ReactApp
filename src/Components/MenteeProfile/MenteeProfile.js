@@ -14,7 +14,7 @@ const MenteeProfile = () => {
                 <img src={home} alt="home_button"  />
                 </a>
             </figure> }
-
+        
         <img className ="aj" alt="" src= {ferson} />
         
         <div className = "card">
@@ -35,10 +35,6 @@ const MenteeProfile = () => {
                     <p>City: Cebu</p>
                     <p>Zip Code: 6000</p>
                 </div>
-
-                <button>
-                    Book Mentor
-                </button>
         </div>
 
         </div>
