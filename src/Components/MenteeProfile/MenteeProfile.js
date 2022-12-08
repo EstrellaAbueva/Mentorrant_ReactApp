@@ -2,6 +2,7 @@ import mentorrantHighReso from "./assets/mentorrantHighReso.png";
 import home from './assets/home.png';
 import pen from "./assets/pen.png";
 import settings from "./assets/settings.png";
+import aj from "./assets/profileAj.png";
 
 import './MenteeProfile.css';
 
@@ -11,37 +12,32 @@ const MenteeProfile = () => {
             { <figure className="home_button">
                 <img src={home} alt="home_button"  />
             </figure> }
-            
-        <div className ="container">
-            <nav className="navbar">
-                <img className ="logo" alt="" src= {mentorrantHighReso} />
-                <h1>Mentorrant</h1>
+
+
+        <img className ="aj" alt="" src= {aj} />
+
+        <div className = "card">
                 <div className="links">
-                    <a href="https://www.youtube.com/">Our Services</a>
-                    <a href="https://www.facebook.com/">Our Team</a>
+                    <a href="https://www.youtube.com/">Mentors</a>
+                    <a href="https://www.facebook.com/">Mentee</a>
                     <a href="https://www.instagram.com/"><img className = "pen" src = {pen} alt = "pen"/></a>
                     <a href="https://www.w3schools.com/css/"><img className = "settings" src = {settings} alt = "settings" /></a>
                 </div>
-            </nav>
-        </div>
-            
-            {/* <div className="profile">
-                <div className="profile-picture">
-                    <img className="profile-picture" src="https://www.w3schools.com/howto/img_avatar.png" alt="profile-picture" />
-                    </div>
-                <div className="profile-info">
-                    <h1>John Doe</h1>
-                    <h2>Student</h2>
-                    <h3>University of Waterloo</h3>
-                    <h4>Computer Science</h4>
-                    <h5>Year 2</h5>
-                    <h6>
-                        <a href="https://www.facebook.com/">Facebook</a>
-                        <a href="https://www.instagram.com/">Instagram</a>
-                        <a href="https://www.youtube.com/">Youtube</a>
-                    </h6>
+
+                <h1>Adrian Jay Barcenilla</h1>
+
+                <div className="details">
+                    <p>Course: BSCS</p>
+                    <p>Email : aj@gmail.com</p>
+                    <p>Contact Number: 0999999999</p>
+                    <p>Address: wala lang street c.c </p>
+                    <p>City: Cebu</p>
+                    <p>Zip Code: 6000</p>
                 </div>
-            </div> */}
+
+                <p><button onclick="window.location.href='https://www.google.com'">Book Mentor</button></p>
+        </div>
+
         </div>
     );
 }

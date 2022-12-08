@@ -80,3 +80,70 @@ a:hover {
   margin-top: 2%;
   margin-right: 2%;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  max-height: 2500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 20px;
+  padding-top: 1%;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #0000FF;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.aj {
+  margin-top: 5%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  opacity: 1;
+}
+
+.aj:hover {
+  opacity: 0.5;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  line-height: 0.5;
+}
+
+.links {
+  padding-bottom: 1%;
+}
