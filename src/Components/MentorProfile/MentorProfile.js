@@ -8,7 +8,7 @@ import './MentorProfile.css';
 
 const MentorProfile = () => {
     return (
-        <div className="general-profile-mente">
+        <div className="general-profile-mentor">
             { <figure className="home_button">
                 <a href="https://www.youtube.com/">
                 <img src={home} alt="home_button"  />
@@ -18,7 +18,7 @@ const MentorProfile = () => {
         <img className ="aj" alt="" src= {ferson} />
         
         <div className = "card">
-                <div className="links">
+                <div className="links1">
                     <a href="https://www.youtube.com/">Mentors</a>
                     <a href="https://www.facebook.com/">Mentee</a>
                     <a href="https://www.instagram.com/"><img className = "pen" src = {pen} alt = "pen"/></a>
