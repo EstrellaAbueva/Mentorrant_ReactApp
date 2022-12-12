@@ -11,9 +11,7 @@ const MentorProfile = () => {
     return (
         <div className="general-profile-mentor">
             { <figure className="home_button">
-                <a href="https://www.youtube.com/">
-                <img src={home} alt="home_button"  />
-                </a>
+                <img src={home} alt="home_button"/>
             </figure> }
         
         <img className ="aj" alt="" src= {ferson} />
