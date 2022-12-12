@@ -3,6 +3,7 @@ import home from './assets/home.png';
 import pen from "./assets/pen.png";
 import settings from "./assets/settings.png";
 import ferson from "./assets/ferson.png";
+import { Link } from "react-router-dom";
 
 import './MentorProfile.css';
 
@@ -10,18 +11,16 @@ const MentorProfile = () => {
     return (
         <div className="general-profile-mentor">
             { <figure className="home_button">
-                <a href="https://www.youtube.com/">
-                <img src={home} alt="home_button"  />
-                </a>
+                <img src={home} alt="home_button"/>
             </figure> }
         
         <img className ="aj" alt="" src= {ferson} />
         
         <div className = "card">
                 <div className="links1">
-                    <a href="https://www.youtube.com/">Mentors</a>
-                    <a href="https://www.facebook.com/">Mentee</a>
-                    <a href="https://www.w3schools.com/css/"><img className = "settings" src = {settings} alt = "settings" /></a>
+                    <Link className="mentorLink" to="/Mentors">Mentors</Link>
+                    <Link className="menteeLink" to="/Mentees">Mentees</Link>
+                    <Link className="settingsLink" to="/MenteeSettings"><img className = "settings" src = {settings} alt = "settings"/></Link>
                 </div>
 
                 <h1>ADRIAN JAY BARCENILLA</h1>
@@ -90,7 +89,7 @@ const MentorProfile = () => {
                     </tbody>
                     </table>
 
-                <button>
+                <button className="bookMentor">
                     Book Mentor
                 </button>
         </div>

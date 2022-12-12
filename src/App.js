@@ -10,6 +10,10 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import Payment from './Components/Payment/Payment';
 import Subscription from './Components/Payment/Subscription';
 
+
+import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
+import MentorProfile from './Components/MentorProfile/MentorProfile';
+import EditMentee from './Components/EditMentee/EditMentee';
 function App() {
   return (
     <>
@@ -23,9 +27,16 @@ function App() {
           <Route path='/Home' element = { <Home/> } />
           <Route path='/Ebooks' element = { <Ebooks/> } />
          </Routes>
+
       </Router>
     </>
   );
+
+  // return (
+  //   <div className = "Navbar">
+  //     <MenteeProfile/>
+  //   </div>
+  // );
 }
 
 export default App;

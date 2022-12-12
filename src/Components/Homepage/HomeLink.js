@@ -12,7 +12,7 @@ const Home = () => {
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <img src={matchMentor} class="photo"/>  
+                        <img src={matchMentor} class="  "/>  
                         <h1 class="display-5">Match a Mentor</h1>
                         <button type="button" class="btn btn-outline-primary btn-lg">Match</button>
                     </div>
