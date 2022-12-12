@@ -8,8 +8,8 @@ const NavbarLink = () => {
     return (
       <div className ="container">
       <nav className="navbar">
-        <img className ="logo" alt="" src= {mentorrantHighReso} />
-        <h1>Mentorrant</h1>
+        <img className ="logo" alt="" src= {mentorrantHighReso}/>
+        <h1><Link className="homeLink" to="/home">Mentorrant</Link></h1>
           <div className="links">
             <Link className="link-a" to="/body">Our Services</Link>
             <Link className="link-a" to="/OurTeam">Our Team</Link>

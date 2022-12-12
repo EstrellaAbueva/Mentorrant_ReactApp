@@ -4,7 +4,11 @@ import Faq from "./Components/FAQ/Faq";
 import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
 import NavbarLink from './Components/Navbar/NavbarLink';
 import OurTeam from './OurTeam';
-import ContactUs from './Components/ContactUs/ContactUs';
+import Home from './Components/Homepage/HomeLink';
+import Ebooks from './Components/Ebooks/Ebooks';
+import LandingPage from './Components/LandingPage/LandingPage';
+import Payment from './Components/Payment/Payment';
+import Subscription from './Components/Payment/Subscription';
 
 function App() {
   return (
@@ -16,7 +20,9 @@ function App() {
           <Route path='/body' element = { <Body/> } />
           <Route path='/faq' element = { <Faq/> } />
           <Route path='/contact-us' element = { <ContactUs/> } />
-          </Routes>
+          <Route path='/Home' element = { <Home/> } />
+          <Route path='/Ebooks' element = { <Ebooks/> } />
+         </Routes>
       </Router>
     </>
   );

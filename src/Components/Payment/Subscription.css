@@ -1,0 +1,11 @@
+.shadow-lg{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.qMark{
+    align-items: left;
+    height: 30px;
+    width: 30px;
+    margin-left: -10px;
+}
