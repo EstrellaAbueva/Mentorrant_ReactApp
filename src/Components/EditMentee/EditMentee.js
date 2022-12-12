@@ -8,6 +8,7 @@ const EditMentee = () => {
             <img className ="aj" alt="" src= {ferson} />
 
             <div className = "card">
+
                 <form className="fname">
                     <input type = "text" id = "fname" name = "fname" placeholder="Enter First Name:" />
                 </form>
@@ -25,10 +26,12 @@ const EditMentee = () => {
                 </form>
 
             <button>
-                Book Mentor
+                Save
             </button>
 
             </div>
+
+            
         </div>
     );
 }
