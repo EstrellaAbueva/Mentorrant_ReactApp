@@ -1,0 +1,10 @@
+.p-tag {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+hr {
+    border: solid 2px;
+    color: black;
+}
