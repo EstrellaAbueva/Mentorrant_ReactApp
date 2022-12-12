@@ -18,12 +18,9 @@ const MentorProfile = () => {
         
         <div className = "card">
                 <div className="links1">
-                    {/* <a href="https://www.youtube.com/">Mentors</a>
-                    <a href="https://www.facebook.com/">Mentee</a>
-                    <a href="https://www.w3schools.com/css/"><img className = "settings" src = {settings} alt = "settings" /></a> */}
-                    <Link className = "mentors" to = "/mentors"></Link>
-                    <Link className = "mentee" to = "/mentee"></Link>
-                    <Link className = "settings" to = "/settings"></Link>
+                    <Link className="mentorLink" to="/Mentors">Mentors</Link>
+                    <Link className="menteeLink" to="/Mentees">Mentees</Link>
+                    <Link className="settingsLink" to="/MenteeSettings"><img className = "settings" src = {settings} alt = "settings"/></Link>
                 </div>
 
                 <h1>ADRIAN JAY BARCENILLA</h1>
@@ -92,7 +89,7 @@ const MentorProfile = () => {
                     </tbody>
                     </table>
 
-                <button>
+                <button className="bookMentor">
                     Book Mentor
                 </button>
         </div>

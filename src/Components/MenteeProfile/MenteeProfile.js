@@ -3,6 +3,7 @@ import home from './assets/home.png';
 import pen from "./assets/pen.png";
 import settings from "./assets/settings.png";
 import ferson from "./assets/ferson.png";
+import { Link } from "react-router-dom";
 
 import './MenteeProfile.css';
 
@@ -19,10 +20,10 @@ const MenteeProfile = () => {
         
         <div className = "card">
                 <div className="links">
-                    <a href="https://www.youtube.com/">Mentors</a>
-                    <a href="https://www.facebook.com/">Mentee</a>
-                    <a href="https://www.instagram.com/"><img className = "pen" src = {pen} alt = "pen"/></a>
-                    <a href="https://www.w3schools.com/css/"><img className = "settings" src = {settings} alt = "settings" /></a>
+                    <Link className="mentorLink" to="/Mentors">Mentors</Link>
+                    <Link className="menteeLink" to="/Mentees">Mentees</Link>
+                    <Link className="editLink" to="/EditMentee"><img className = "pen" src = {pen} alt = "pen"/></Link>
+                    <Link className="settingsLink" to="/MenteeSettings"><img className = "settings" src = {settings} alt = "settings"/></Link>
                 </div>
 
                 <h1>ADRIAN JAY BARCENILLA</h1>
