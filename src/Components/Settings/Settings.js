@@ -9,7 +9,7 @@ import user from './assets/user.png';
 import payment from './assets/Payment.png';
 import notification from './assets/Notification Bell.png';
 import session from './assets/session.png';
-import './Assets.css';
+import './Settings.css';
 
 const HomeButton = () => {
   return (
