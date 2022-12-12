@@ -21,7 +21,6 @@ const MentorProfile = () => {
                 <div className="links1">
                     <a href="https://www.youtube.com/">Mentors</a>
                     <a href="https://www.facebook.com/">Mentee</a>
-                    <a href="https://www.instagram.com/"><img className = "pen" src = {pen} alt = "pen"/></a>
                     <a href="https://www.w3schools.com/css/"><img className = "settings" src = {settings} alt = "settings" /></a>
                 </div>
 
