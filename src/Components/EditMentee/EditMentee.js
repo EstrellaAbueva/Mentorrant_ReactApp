@@ -1,4 +1,5 @@
 import ferson from "./assets/ferson.png";
+import { Link } from "react-router-dom";
 
 import './EditMentee.css';
 
@@ -30,7 +31,7 @@ const EditMentee = () => {
             </button>
 
             <button className="backButton">
-                Back
+                <Link className="menteeLink" to="/MenteeProfile">Back</Link>
             </button>
 
             </div>

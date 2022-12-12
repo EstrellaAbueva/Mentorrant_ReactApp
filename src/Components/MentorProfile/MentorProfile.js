@@ -6,6 +6,7 @@ import ferson from "./assets/ferson.png";
 import { Link } from "react-router-dom";
 
 import './MentorProfile.css';
+import GetMentors from "./MentorService/GetMentor";
 
 const MentorProfile = () => {
     return (
@@ -27,12 +28,13 @@ const MentorProfile = () => {
                 <h1>ADRIAN JAY BARCENILLA</h1>
 
                 <div className="details">
-                    <p>Course: BSCS</p>
+                    <GetMentors/>
+                    {/* <p>Course: BSCS</p>
                     <p>Email : aj@gmail.com</p>
                     <p>Contact Number: 0999999999</p>
                     <p>Address: Wala Lang Street Cebu City</p>
                     <p>City: Cebu</p>
-                    <p>Zip Code: 6000</p>
+                    <p>Zip Code: 6000</p> */}
                 </div>
 
                 <h5>EXPERTISE:</h5>

@@ -1,17 +1,17 @@
 import React from 'react';
 import axios from "axios";
 
-const EBOOKS_BASE_URL = "localhost:8080/mentee/getAllMentee";
+const EBOOKS_BASE_URL = "localhost:8080/mentors/getAllMentors";
 
-export default class GetMentees extends React.Component {
+export default class GetMentors extends React.Component {
     state = {
-      mentees: []
+      mentors: []
     }
 
     componentDidMount(){
         axios.get(EBOOKS_BASE_URL).then(res =>{
-            const mentees = res.data;
-            this.setState({mentees});
+            const mentors = res.data;
+            this.setState({mentors});
         })
     }
 
@@ -25,17 +25,19 @@ export default class GetMentees extends React.Component {
                             <th scope="col">Name</th>
                             <th scope="col">Course ID</th>
                             <th scope="col">Mentee ID</th>
+                            <th scope="col">Rating</th>
                         </tr>
                     </thead>
                 {
-                    this.state.mentees
-                    .map(mentees=>  
+                    this.state.mentors
+                    .map(mentors=>  
                         <tbody>
                         <tr>
-                            <td key={mentees.studentId}>{mentees.studentId}</td>
-                            <td key={mentees.name}>{mentees.name}</td>
-                            <td key={mentees.courseId}>{mentees.courseId}</td>
-                            <td key={mentees.menteeId}>{mentees.menteeId}</td>
+                            <td key={mentors.studentId}>{mentors.studentId}</td>
+                            <td key={mentors.name}>{mentors.name}</td>
+                            <td key={mentors.courseId}>{mentors.courseId}</td>
+                            <td key={mentors.menteeId}>{mentors.menteeId}</td>
+                            <td key={mentors.rating}>{mentors.rating}</td>
                         </tr>
                         </tbody>        
                     )

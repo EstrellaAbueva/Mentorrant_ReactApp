@@ -4,9 +4,10 @@ import pen from "./assets/pen.png";
 import settings from "./assets/settings.png";
 import ferson from "./assets/ferson.png";
 import { Link } from "react-router-dom";
+import GetMentees from "./MenteeService/GetMentees";
 
 import './MenteeProfile.css';
-import GetMentees from "./MenteeService/GetMentees";
+
 
 const MenteeProfile = () => {
     return (
@@ -21,7 +22,7 @@ const MenteeProfile = () => {
         
         <div className = "card">
                 <div className="links">
-                <Link className="mentorLink" to="/MentorProfile">Mentors</Link>
+                    <Link className="mentorLink" to="/MentorProfile">Mentors</Link>
                     <Link className="menteeLink" to="/MenteeProfile">Mentees</Link>
                     <Link className="settingsLink" to="/MenteeProfile"><img className = "pen" src = {settings} alt = "settings"/></Link>
                 </div>
