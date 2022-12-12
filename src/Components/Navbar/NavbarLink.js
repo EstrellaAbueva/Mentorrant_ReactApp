@@ -8,13 +8,13 @@ const NavbarLink = () => {
     return (
       <div className ="container">
       <nav className="navbar">
-        <img className ="logo" alt="" src= {mentorrantHighReso} />
-        <h1>Mentorrant</h1>
+        <img className ="logo" alt="" src= {mentorrantHighReso}/>
+        <h1><Link className="homeLink" to="/home">Mentorrant</Link></h1>
           <div className="links">
-            <Link className="link-a" to="/body">Our Services</Link>
-            <Link className="link-a" to="/OurTeam">Our Team</Link>
-            <Link className="link-a" to="/faq">FAQ</Link>
-            <Link className="link-a" to="/">Contact Us</Link>
+            <Link className="serviceLink" to="/body">Our Services</Link>
+            <Link className="teamLink" to="/OurTeam">Our Team</Link>
+            <Link className="faqLink" to="/faq">FAQ</Link>
+            <Link className="contactLink" to="/">Contact Us</Link>
           </div>
         </nav>
       </div>
