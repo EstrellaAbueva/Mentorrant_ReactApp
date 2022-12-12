@@ -18,20 +18,16 @@ function App() {
   return (
     <>
       <Router>
-        <NavbarLink/>
-          <Routes>
-            <Route path='/OurTeam' element = { <OurTeam/>} />
-            <Route path='/body' element = { <Body/> } />
-            <Route path='/faq' element = { <Faq/> } />
-            <Route path='/Home' element = { <Home/> } />
-            <Route path='/Ebooks' element = { <Ebooks/> } />
-            <Route path='/LandingPage' element = { <LandingPage/> } />
-            <Route path='/Payment' element = { <Payment/> } />
-            <Route path='/Subscription' element = { <Subscription/> } />
-            <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
-            <Route path='/MentorProfile' element = { <MentorProfile/> } />
-            <Route path='/EditMentee' element = { <EditMentee/> } />
-          </Routes>
+      <NavbarLink/>
+        <Routes>
+          <Route path='/OurTeam' element = { <OurTeam/>} />
+          <Route path='/body' element = { <Body/> } />
+          <Route path='/faq' element = { <Faq/> } />
+          <Route path='/contact-us' element = { <ContactUs/> } />
+          <Route path='/Home' element = { <Home/> } />
+          <Route path='/Ebooks' element = { <Ebooks/> } />
+         </Routes>
+
       </Router>
     </>
   );
