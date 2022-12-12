@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Get from './EbooksService/GetEbooks';
 const Ebooks = () =>{
     return(
         <div class="container-fluid">
@@ -23,6 +23,7 @@ const Ebooks = () =>{
                         </div>
                     </div>
                 </div>
+                <Get/>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import Faq from "./Components/FAQ/Faq";
 import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
 import NavbarLink from './Components/Navbar/NavbarLink';
 import OurTeam from './OurTeam';
-import Home from './Components/Homepage/Home';
+import Home from './Components/Homepage/HomeLink';
 import Ebooks from './Components/Ebooks/Ebooks';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Payment from './Components/Payment/Payment';
