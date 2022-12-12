@@ -12,24 +12,42 @@ const OurTeam = () => {
             <div className="flex">
                 <div className="row">
                     <div className="box">
-                        <img className ="imgPeople" alt="" src= {ella} />
+                        <div className="front">
+                            <img className ="imgPeople" alt="" src= {ella} />
+                            <div className="back">Estrella Abueva</div>
+                        </div>
                     </div>
                     <div className="box">
-                        <img className ="imgPeople" alt="" src= {aj} />
+                        <div className="front">
+                            <img className ="imgPeople" alt="" src= {aj} />
+                            <div className="back">Adrian Jay Barcenilla</div>
+                        </div>
                     </div>
                     <div className="box">
-                    <img className ="imgPeople" alt="" src= {william} />
+                        <div className="front">
+                            <img className ="imgPeople" alt="" src= {william} />
+                            <div className="back">John William Miones</div>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="box">
-                        <img className ="imgPeople" alt="" src= {sean} />
+                        <div className="front">
+                            <img className ="imgPeople" alt="" src= {sean} />
+                            <div className="back">Sean Venz Quijano</div>
+                        </div>
                     </div>
                     <div className="box">
-                    <img className ="imgPeople" alt="" src= {kent} />
+                        <div className="front">
+                            <img className ="imgPeople" alt="" src= {kent} />
+                            <div className="back">Kent Stephen Sumalinog</div>
+                        </div>
                     </div>
                     <div className="box">
-                        <img className ="imgPeople" alt="" src= {andre} />
+                        <div className="front">
+                            <img className ="imgPeople" alt="" src= {andre} />
+                            <div className="back">Andre Lennard Uy</div>
+                        </div>
                     </div>
                 </div>
             </div>
