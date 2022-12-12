@@ -18,9 +18,10 @@ const MentorProfile = () => {
         
         <div className = "card">
                 <div className="links1">
-                    <Link className="mentorLink" to="/Mentors">Mentors</Link>
-                    <Link className="menteeLink" to="/Mentees">Mentees</Link>
-                    <Link className="settingsLink" to="/MenteeSettings"><img className = "settings" src = {settings} alt = "settings"/></Link>
+                    <Link className="mentorLink" to="/MentorProfile">Mentors</Link>
+                    <Link className="menteeLink" to="/MenteeProfile">Mentees</Link>
+                    <Link className="editLink" to="/EditMentee"><img className = "pen" src = {pen} alt = "pen"/></Link>
+                    <Link className="settingsLink" to="/MenteeProfile"><img className = "pen" src = {settings} alt = "settings"/></Link>
                 </div>
 
                 <h1>ADRIAN JAY BARCENILLA</h1>

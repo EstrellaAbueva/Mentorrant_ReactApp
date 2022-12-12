@@ -9,11 +9,10 @@ import Ebooks from './Components/Ebooks/Ebooks';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Payment from './Components/Payment/Payment';
 import Subscription from './Components/Payment/Subscription';
-
-
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+
 function App() {
   return (
     <>
@@ -28,19 +27,18 @@ function App() {
             <Route path='/LandingPage' element = { <LandingPage/> } />
             <Route path='/Payment' element = { <Payment/> } />
             <Route path='/Subscription' element = { <Subscription/> } />
-            <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
+            <Route path='/LandingPage' element = { <LandingPage/> } />
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
+            <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
-          </Routes>
+        </Routes>
+        
       </Router>
+
     </>
   );
-
-  // return (
-  //   <div className = "Navbar">
-  //     <MenteeProfile/>
-  //   </div>
-  // );
+    
+ 
 }
 
 export default App;
