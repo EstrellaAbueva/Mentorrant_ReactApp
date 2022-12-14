@@ -27,7 +27,7 @@ const Home = () => {
                 <br></br>
                 <div class="row">
                     <div class="col">
-                        <img src={ebooks} class="photo" />
+                        <img src={ebooks} class="photo"/>
                         <h1 class="display-5">Available Ebooks</h1>
                         <h3><Link className="ebooksLink" to="/Ebooks">Ebooks</Link></h3>
                     </div>
