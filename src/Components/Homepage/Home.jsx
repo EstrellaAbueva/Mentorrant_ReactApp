@@ -5,7 +5,7 @@ import session from "./img/session.png";
 import ebooks from "./img/ebooks.png";
 import settings from "./img/settings.png";
 
-
+s
 const Home = () => {
     return(
         <div class=".container-md">
@@ -13,13 +13,13 @@ const Home = () => {
                 <div class="row">
                     <div class="col">
                         <img src={matchMentor} class="photo"/>  
-                        <h1 class="display-5">Match a Mentor</h1>
-                        <button type="button" class="btn btn-outline-primary btn-lg">Match</button>
+                        <h1 class="display-5">
+                            <Link className="mentorLink" to="/MentorProfile">Mentee/Mentor</Link>
+                        </h1>
                     </div>
                     <div class="col">
                         <img src={session} class="photo"/>
                         <h1 class="display-5">Session</h1>
-                        <button type="button" class="btn btn-outline-primary btn-lg">Session</button>
                     </div>
                 </div>
                 <br></br>
