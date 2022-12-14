@@ -1,11 +1,50 @@
 .photo{
-    width: auto;
+    width: 400px;
     height: 200px;
 }
 
 .display-5{
     font-weight: 900;
-    line-height: 1.2;
     color: #212529;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.containers:hover .image {
+    opacity: 0.3;
+}
+
+.containers:hover .middle {
+    opacity: 1;
+}
+
+.containers {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
