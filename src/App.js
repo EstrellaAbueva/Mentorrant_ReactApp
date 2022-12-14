@@ -12,6 +12,7 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/OurTeam' element = { <OurTeam/>} />
             <Route path='/body' element = { <Body/> } />
             <Route path='/faq' element = { <Faq/> } />
+            <Route path='/ContactUs' element = { <ContactUs/> } />
             <Route path='/Home' element = { <Home/> } />
             <Route path='/Ebooks' element = { <Ebooks/> } />
             <Route path='/LandingPage' element = { <LandingPage/> } />
