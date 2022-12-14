@@ -8,24 +8,16 @@
   color: #333;
 } 
 
-.container {
-  padding: 20px;
-  align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
-  height: min-content;
-}
-
 .navbar {
-  display: flex;
-  height: auto;
+  /* display: flex; */
+  height: 150px;
 }
 
 .logo {
-  height: 30%;
-  width: 30%;
+  height: 50%;
+  width: 50%;
   margin-left: -150px;
-  flex: 1;
+  /* flex: 1; */
 }
 
 .navbar h1 {
@@ -38,6 +30,7 @@
 }
 
 .navbar .links {
+  background-color: white;
   padding-top: 70px;
   margin-left: auto;
   max-width: fit-content;
@@ -54,8 +47,4 @@ a {
 
 a:hover {
   color: blue;
-}
-
-.container {
-  border: white 1px solid;
 }
