@@ -24,6 +24,7 @@ const MenteeProfile = () => {
                 <div className="links">
                     <Link className="mentorLink" to="/MentorProfile">Mentors</Link>
                     <Link className="menteeLink" to="/MenteeProfile">Mentees</Link>
+                    <Link className="editLink" to="/EditMentee"><img className = "pen" src = {pen} alt = "pen"/></Link> 
                     <Link className="settingsLink" to="/MenteeProfile"><img className = "pen" src = {settings} alt = "settings"/></Link>
                 </div>
 
