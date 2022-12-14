@@ -8,11 +8,11 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return(
-        <div class=".container-md">
+        <div class="container-md">
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <img src={matchMentor} class="  "/>  
+                        <img src={matchMentor} class="photo"/>  
                         <h1 class="display-5">Match a Mentor</h1>
                         <button type="button" class="btn btn-outline-primary btn-lg">Match</button>
                     </div>
