@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 
 const NavbarLink = () => {
     return (
-      <div className ="container">
-      <nav className="navbar">
+      <div className="container-sm">
         <img className ="logo" alt="" src= {mentorrantHighReso}/>
-        <h1><Link className="homeLink" to="/home">Mentorrant</Link></h1>
-          <div className="links">
-            <Link className="link-a" to="/body">Our Services</Link>
-            <Link className="link-a" to="/OurTeam">Our Team</Link>
-            <Link className="link-a" to="/faq">FAQ</Link>
-            <Link className="link-a" to="/contact-us">Contact Us</Link>
-          </div>
+        <nav className="navbar navbar-expand-lg"> 
+            <h1><Link className="homeLink" to="/home">Mentorrant</Link></h1>
+            <div className="links">
+              <Link className="link-a" to="/body">Our Services</Link>
+              <Link className="link-a" to="/OurTeam">Our Team</Link>
+              <Link className="link-a" to="/faq">FAQ</Link>
+              <Link className="link-a" to="/contact-us">Contact Us</Link>
+            </div>
         </nav>
       </div>
       );

@@ -2,7 +2,10 @@ import './ContactUs.css';
 
 const ContactUs = () => {
     return ( 
-        <div className="flex-container">
+        <div className="container">
+            <br></br>
+            <br></br>
+            <br></br>
             <div className="box1">
                 <h1><strong>CALL US</strong></h1>
                 <hr></hr>
