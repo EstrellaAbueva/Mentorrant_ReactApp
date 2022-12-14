@@ -13,7 +13,6 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
-import ContactUs from './Components/ContactUs/ContactUs';
 
 function App() {
   return (

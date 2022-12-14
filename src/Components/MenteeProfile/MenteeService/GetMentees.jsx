@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from "axios";
 
-const EBOOKS_BASE_URL = "localhost:8080/mentee/getAllMentee";
+const MENTEES_BASE_URL = "http://localhost:8080/mentors/getAllMentors";
 
 export default class GetMentees extends React.Component {
     state = {
@@ -9,7 +9,7 @@ export default class GetMentees extends React.Component {
     }
 
     componentDidMount(){
-        axios.get(EBOOKS_BASE_URL).then(res =>{
+        axios.get(MENTEES_BASE_URL).then(res =>{
             const mentees = res.data;
             this.setState({mentees});
         })
@@ -21,10 +21,9 @@ export default class GetMentees extends React.Component {
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">Student ID</th>
                             <th scope="col">Name</th>
                             <th scope="col">Course ID</th>
-                            <th scope="col">Mentee ID</th>
+                            <th scope="col">Student ID</th>
                         </tr>
                     </thead>
                 {
@@ -32,10 +31,9 @@ export default class GetMentees extends React.Component {
                     .map(mentees=>  
                         <tbody>
                         <tr>
-                            <td key={mentees.studentId}>{mentees.studentId}</td>
                             <td key={mentees.name}>{mentees.name}</td>
                             <td key={mentees.courseId}>{mentees.courseId}</td>
-                            <td key={mentees.menteeId}>{mentees.menteeId}</td>
+                            <td key={mentees.studentId}>{mentees.studentId}</td>
                         </tr>
                         </tbody>        
                     )
