@@ -6,6 +6,7 @@ import NavbarLink from './Components/Navbar/NavbarLink';
 import OurTeam from './OurTeam';
 import Home from './Components/Homepage/HomeLink';
 import Ebooks from './Components/Ebooks/Ebooks';
+import ContactUs from './Components/ContactUs/ContactUs'
 import LandingPage from './Components/LandingPage/LandingPage';
 import Payment from './Components/Payment/Payment';
 import Subscription from './Components/Payment/Subscription';
