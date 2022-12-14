@@ -13,13 +13,15 @@ const Home = () => {
                 <div class="row">
                     <div class="col">
                         <img src={matchMentor} class="photo"/>  
-                        <h1 class="display-5">Match a Mentor</h1>
-                        <button type="button" class="btn btn-outline-primary btn-lg">Match</button>
+                        <h1 class="display-5">
+                            <Link className="mentorLink" to="/MentorProfile">Mentee/Mentor</Link>
+                        </h1>
                     </div>
                     <div class="col">
                         <img src={session} class="photo"/>
-                        <h1 class="display-5">Session</h1>
-                        <button type="button" class="btn btn-outline-primary btn-lg">Session</button>
+                        <h1 className="display-5">
+                            <Link className="EbooksLink" to="/Ebooks">Session</Link>
+                        </h1>
                     </div>
                 </div>
                 <br></br>
@@ -28,13 +30,15 @@ const Home = () => {
                 <div class="row">
                     <div class="col">
                         <img src={ebooks} class="photo"/>
-                        <h1 class="display-5">Available Ebooks</h1>
-                        <h3><Link className="ebooksLink" to="/Ebooks">Ebooks</Link></h3>
+                        <h1 className="display-5">
+                            <Link className="EbooksLink" to="/Ebooks">Ebooks</Link>
+                        </h1>
                     </div>
                     <div class="col">
                         <img src={settings} class="photo" />
-                        <h1 class="display-5">Settings</h1>
-                        <button type="button" class="btn btn-outline-primary btn-lg">Settings</button>
+                        <h1 className="display-5">
+                            <Link className="settingsLink" to="/Settings">Settings</Link>
+                        </h1>
                     </div>
                 </div>
             </div>

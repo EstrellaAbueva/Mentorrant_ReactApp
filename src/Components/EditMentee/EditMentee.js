@@ -1,4 +1,5 @@
 import ferson from "./assets/ferson.png";
+import { Link } from "react-router-dom";
 
 import './EditMentee.css';
 
@@ -25,8 +26,12 @@ const EditMentee = () => {
                     <input type = "text" id = "email" name = "email" placeholder="Enter year:" />
                 </form>
 
-            <button>
+            <button className="saveButton">
                 Save
+            </button>
+
+            <button className="backButton">
+                <Link className="backButton" to="/MenteeProfile">Back</Link>
             </button>
 
             </div>
