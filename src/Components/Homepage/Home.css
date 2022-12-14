@@ -2,3 +2,10 @@
     width: auto;
     height: 200px;
 }
+
+.display-5{
+    font-weight: 900;
+    line-height: 1.2;
+    color: #212529;
+}
+

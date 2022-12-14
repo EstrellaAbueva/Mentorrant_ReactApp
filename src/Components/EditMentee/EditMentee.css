@@ -63,7 +63,7 @@
     padding-top: 1%;
   }
   
-  button {
+  button, .backButton {
     width: 200px;
     height: 45px;
     align-items: center;
@@ -79,10 +79,11 @@
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: 0;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 40%;
     margin-right: 40%;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 button:hover {
@@ -90,7 +91,14 @@ button:hover {
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
-  }
+}
+
+.backButton:hover{
+    background-color: #0000FF;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
 
 .center {
   height:100%;
@@ -133,4 +141,8 @@ button:hover {
   display:none;
 
   margin-bottom:30px;
+}
+
+.backButton{
+  margin-left: 5%;
 }

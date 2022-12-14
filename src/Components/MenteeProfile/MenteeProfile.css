@@ -14,12 +14,9 @@ body {
   background-size: 1500px 1000px;
 }
 
-.settings{
-  width: 30px;
-}
-
 .pen{
   width: 30px;
+  margin-left: 1%;
 }
 
 .home_button{
