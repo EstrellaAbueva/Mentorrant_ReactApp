@@ -1,6 +1,7 @@
 import React from 'react';
 import './Login.css'
-import logo from './Assets/logo-login.png'
+import logo from './assets/logo-login.png'
+import { Link } from 'react-router-dom';
 
 const Login =() => {
     return(
@@ -12,15 +13,18 @@ const Login =() => {
                 <img src={logo} alt="logo" className="logo-login" />
                 <div className="content">
                     <div className="input-field">
-                        <input type="email" placeholder="Email" autoComplete="nope" />
+                        <input type="email" placeholder="Email" autoComplete="nope" required/>
                     </div>
                     <div className="input-field">
-                        <input type="password" placeholder="Password" autoComplete="new-password" />
+                        <input type="password" placeholder="Password" autoComplete="new-password" required/>
                     </div>
                     <a href="#" className="forgotPassword">Forgot Your Password?</a>
                 </div>
                 <div className="action">
-                    <button className="register-login">Register</button>
+                    <button className="register-login">
+                        <Link className= "register-link" to = "/Register">
+                        Register
+                        </Link></button>
                     <button className="sign-in">Sign In</button>
                 </div>
             </form>
