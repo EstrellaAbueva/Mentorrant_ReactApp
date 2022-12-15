@@ -1,15 +1,6 @@
-.content {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-  }
-  
 .flex-container {
-  display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 10px;
-  height: 450px;
+  display: inline-flex;
+  margin-left: -150px;
 }
   
 .flex-container div {
@@ -20,7 +11,7 @@
 }
 
 .flex-container div h1 {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .flex-container div li {

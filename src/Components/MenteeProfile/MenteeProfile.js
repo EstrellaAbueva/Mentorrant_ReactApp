@@ -3,37 +3,35 @@ import home from './assets/home.png';
 import pen from "./assets/pen.png";
 import settings from "./assets/settings.png";
 import ferson from "./assets/ferson.png";
+import { Link } from "react-router-dom";
+import GetMentees from "./MenteeService/GetMentees";
 
 import './MenteeProfile.css';
+
 
 const MenteeProfile = () => {
     return (
         <div className="general-profile-mente">
             { <figure className="home_button">
-                <a href="https://www.youtube.com/">
-                <img src={home} alt="home_button"  />
-                </a>
+                <Link className="homeLink" to="/Home">
+                    <img src={home} alt="home_button"/>
+                </Link>
             </figure> }
         
-        <img className ="aj" alt="" src= {ferson} />
+        <img className ="aj" alt="aj" src= {ferson} />
         
         <div className = "card">
                 <div className="links">
-                    <a href="https://www.youtube.com/">Mentors</a>
-                    <a href="https://www.facebook.com/">Mentee</a>
-                    <a href="https://www.instagram.com/"><img className = "pen" src = {pen} alt = "pen"/></a>
-                    <a href="https://www.w3schools.com/css/"><img className = "settings" src = {settings} alt = "settings" /></a>
+                    <Link className="mentorLink" to="/MentorProfile">Mentors</Link>
+                    <Link className="menteeLink" to="/MenteeProfile">Mentees</Link>
+                    <Link className="editLink" to="/EditMentee"><img className = "pen" src = {pen} alt = "pen"/></Link> 
+                    <Link className="settingsLink" to="/Settings"><img className = "pen" src = {settings} alt = "settings"/></Link>
                 </div>
 
                 <h1>ADRIAN JAY BARCENILLA</h1>
 
                 <div className="details">
-                    <p>Course: BSCS</p>
-                    <p>Email : aj@gmail.com</p>
-                    <p>Contact Number: 0999999999</p>
-                    <p>Address: Wala Lang Street Cebu City</p>
-                    <p>City: Cebu</p>
-                    <p>Zip Code: 6000</p>
+                    <GetMentees/>
                 </div>
         </div>
 

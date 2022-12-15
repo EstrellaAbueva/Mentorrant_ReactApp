@@ -3,7 +3,10 @@ import './Faq.css';
 
 const FAQ = () => {
     return (
-        <div className="container">
+        <div className="container-sm">
+            <br></br>
+            <br></br>
+            <br></br>
             <h1 className="faq-h1">WHAT IS MENTORRANT?</h1>
             <p className="faq-q">
                 Mentorrant is an online platform that connects to other
