@@ -1,13 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
+
+  body {
+    background-color: #D4D4D4;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .logo-login{
+    height: 50%;
+  width: 50%;
+  margin-left: 125px;
+  margin-bottom: -30px;
   }
   
-  body {
-    background: #e35869;
-    font-family: 'Rubik', sans-serif;
+  .log-in-login{
+    align-items: center;
+    text-align: center;
   }
   
   .login-form {
@@ -76,10 +82,11 @@
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-            flex-direction: row;
-  }
-  .login-form .action button {
+    flex-direction: row;
+  } 
+  .register-login{
     width: 100%;
+    display: inline-block;
     border: none;
     padding: 18px;
     font-family: 'Rubik', sans-serif;
@@ -94,10 +101,29 @@
     -webkit-transition: all .3s;
     transition: all .3s;
   }
-  .login-form .action button:hover {
+
+  .sign-in{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    padding: 18px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #e8e9ec;
+    color: #777;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    letter-spacing: 0.2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .register-login:hover {
     background: #d8d8d8;
   }
-  .login-form .action button:nth-child(2) {
+  .sign-in:nth-child(2) {
     background: #2d3b55;
     color: #fff;
     border-bottom-left-radius: 0;
@@ -106,3 +132,12 @@
   .login-form .action button:nth-child(2):hover {
     background: #3c4d6d;
   }
+
+.forgotPassword{
+  text-decoration: none;
+  color: blue;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+}
