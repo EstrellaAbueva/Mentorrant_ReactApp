@@ -94,7 +94,7 @@ a:hover {
   font-size: 18px;
 }
 
-button {
+.backbutton {
   width: 200px;
   height: 45px;
   align-items: center;
