@@ -13,11 +13,15 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
 
 function App() {
   return (
     <>
       <Router>
+        <Register/>
+        <Login/>
         <NavbarLink/>
           <Routes>
             <Route path='/OurTeam' element = { <OurTeam/>} />

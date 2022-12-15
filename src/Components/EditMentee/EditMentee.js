@@ -30,8 +30,8 @@ const EditMentee = () => {
                 Save
             </button>
 
-            <button className="backButton">
-                <Link className="backButton" to="/MenteeProfile">Back</Link>
+            <button className="saveButton">
+                <Link className = "saveButton" to="/MenteeProfile">Back</Link>
             </button>
 
             </div>
