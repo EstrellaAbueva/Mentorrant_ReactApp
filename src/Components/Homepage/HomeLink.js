@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return(
         <div class="container-md">
+            <h1>Welcome Adrian Jay!</h1>
             <div class="container text-center">
                 <div class="row">
                     <div className = "containers">
