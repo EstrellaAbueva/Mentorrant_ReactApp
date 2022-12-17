@@ -12,16 +12,22 @@ const Home = () => {
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <img src={matchMentor} class="photo"/>  
-                        <h1 class="display-5">
+                        <img src={matchMentor} class="photo"/>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <button type="button" className="but">
                             <Link className="mentorLink" to="/MentorProfile">Mentee/Mentor</Link>
-                        </h1>
+                        </button>  
                     </div>
                     <div class="col">
                         <img src={session} class="photo"/>
-                        <h1 className="display-5">
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <button type="button" className="but">
                             <Link className="EbooksLink" to="/Ebooks">Session</Link>
-                        </h1>
+                        </button>
                     </div>
                 </div>
                 <br></br>
@@ -30,15 +36,21 @@ const Home = () => {
                 <div class="row">
                     <div class="col">
                         <img src={ebooks} class="photo"/>
-                        <h1 className="display-5">
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <button type="button" className="but">
                             <Link className="EbooksLink" to="/Ebooks">Ebooks</Link>
-                        </h1>
+                        </button>
                     </div>
                     <div class="col">
                         <img src={settings} class="photo" />
-                        <h1 className="display-5">
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <button type="button" className="but">
                             <Link className="settingsLink" to="/Settings">Settings</Link>
-                        </h1>
+                        </button>
                     </div>
                 </div>
             </div>
