@@ -15,13 +15,14 @@ import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
+import BookMentor from './Components/MentorProfile/BookMentor';
 
 function App() {
   return (
     <>
       <Router>
-        <Register/>
-        <Login/>
+        {/* <Register/>
+        <Login/> */}
         <NavbarLink/>
           <Routes>
             <Route path='/OurTeam' element = { <OurTeam/>} />
@@ -37,6 +38,7 @@ function App() {
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
+            <Route path='/BookMentor' element = { <BookMentor/> } />
         </Routes>
         
       </Router>

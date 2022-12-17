@@ -11,7 +11,7 @@ import notification from './assets/Notification Bell.png';
 import session from './assets/session.png';
 import './Settings.css';
 
-const HomeButton = () => {
+const Settings = () => {
   return (
     <div className="settings">
         <figure className="home_button">
@@ -100,4 +100,4 @@ const HomeButton = () => {
   );
 }
 
-export default HomeButton;
+export default Settings;

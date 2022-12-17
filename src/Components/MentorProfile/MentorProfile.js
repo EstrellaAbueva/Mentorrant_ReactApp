@@ -75,7 +75,9 @@ const MentorProfile = () => {
                     </table>
 
                 <button className="bookMentor">
-                    Book Mentor
+                    <Link className="bookMentorLink" to="/BookMentor">
+                        BookMentor
+                    </Link>
                 </button>
         </div>
 
