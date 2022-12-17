@@ -63,7 +63,7 @@
     padding-top: 1%;
   }
   
-  button, .backButton {
+  .backButton {
     width: 200px;
     height: 45px;
     align-items: center;
@@ -86,7 +86,7 @@
     text-align: center;
 }
 
-button:hover {
+.backbutton:hover {
     background-color: #0000FF;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
@@ -141,8 +141,4 @@ button:hover {
   display:none;
 
   margin-bottom:30px;
-}
-
-.backButton{
-  margin-left: 5%;
 }

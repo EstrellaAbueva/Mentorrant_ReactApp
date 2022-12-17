@@ -26,12 +26,12 @@ const EditMentee = () => {
                     <input type = "text" id = "email" name = "email" placeholder="Enter year:" />
                 </form>
 
-            <button className="saveButton">
+            <button className="backButton">
                 Save
             </button>
 
             <button className="backButton">
-                <Link className="backButton" to="/MenteeProfile">Back</Link>
+                <Link to="/MenteeProfile">Back</Link>
             </button>
 
             </div>

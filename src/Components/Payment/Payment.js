@@ -12,7 +12,7 @@ const Payment =() => {
                 No payment method saved. <br />
                 Checkout faster by saving a payment method.
             </p>
-            <button>
+            <button className="payment-method">
                 Add Payment Method
             </button>
             <hr />

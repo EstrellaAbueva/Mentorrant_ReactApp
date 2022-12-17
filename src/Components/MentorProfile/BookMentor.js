@@ -1,42 +1,41 @@
-import mentorrantHighReso from "./assets/mentorrantHighReso.png";
 import home from './assets/home.png';
 import pen from "./assets/pen.png";
 import settings from "./assets/settings.png";
 import ferson from "./assets/ferson.png";
 import { Link } from "react-router-dom";
-import GetMentees from "./MenteeService/GetMentees";
 
-import './MenteeProfile.css';
+import './MentorProfile.css';
 
-
-const MenteeProfile = () => {
+const BookMentor = () => {
     return (
-        <div className="general-profile-mente">
+        <div className="general-profile-mentor">
             { <figure className="home_button">
                 <Link className="homeLink" to="/Home">
                     <img src={home} alt="home_button"/>
                 </Link>
             </figure> }
         
-        <img className ="aj" alt="aj" src= {ferson} />
+        <img className ="aj" alt="" src= {ferson} />
         
         <div className = "card">
-                <div className="links">
+                <div className="links1">
                     <Link className="mentorLink" to="/MentorProfile">Mentors</Link>
                     <Link className="menteeLink" to="/MenteeProfile">Mentees</Link>
-                    <Link className="editLink" to="/EditMentee"><img className = "pen" src = {pen} alt = "pen"/></Link> 
+                    <Link className="editLink" to="/EditMentee"><img className = "pen" src = {pen} alt = "pen"/></Link>
                     <Link className="settingsLink" to="/Settings"><img className = "pen" src = {settings} alt = "settings"/></Link>
                 </div>
 
-                <h1>ADRIAN JAY BARCENILLA</h1>
+                <h1>MENTOR BOOKED</h1>
 
-                <div className="details">
-                    <GetMentees/>
-                </div>
+                <button className="bookMentor">
+                    <Link className="mentorLink" to="/MentorProfile">
+                        Back
+                    </Link>
+                </button>
         </div>
 
         </div>
     );
 }
 
-export default MenteeProfile;
+export default BookMentor;

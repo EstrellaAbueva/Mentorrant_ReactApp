@@ -1,29 +1,31 @@
 import React from 'react';
-import './Register.css'
-import logo from './assets/logo-register.png'
+import './Login.css'
+import logo from './assets/logo-login.png'
 import { Link } from 'react-router-dom';
 
-const Register =() => {
+const Login =() => {
     return(
-        <div className="login">
+    <div className="login">
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'/><link rel="stylesheet" href="./style.css"/>
         <div className="login-form">
             <form>
-                <h1 className="log-in-login">Sign Up</h1>
+                <h1 className="log-in-login">Login</h1>
                 <img src={logo} alt="logo" className="logo-login" />
                 <div className="content">
                     <div className="input-field">
-                        <input type="name" placeholder="Name" autoComplete="nope" required/>
-                    </div>
-                    <div className="input-field">
-                        <input type="email" placeholder="Email" autoComplete="Email" required/>
+                        <input type="email" placeholder="Email" autoComplete="nope" required/>
                     </div>
                     <div className="input-field">
                         <input type="password" placeholder="Password" autoComplete="new-password" required/>
                     </div>
+                    <a href="#" className="forgotPassword">Forgot Your Password?</a>
                 </div>
                 <div className="action">
-                    <button className="signup-register">Sign Up</button>
+                    <button className="register-login">
+                        <Link className= "register-link" to = "/Register">
+                        Register
+                        </Link></button>
+                    <button className="sign-in">Sign In</button>
                 </div>
             </form>
         </div>
@@ -31,4 +33,4 @@ const Register =() => {
     );
 }
 
-export default Register;
+export default Login;

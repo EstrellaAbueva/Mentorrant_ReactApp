@@ -18,6 +18,8 @@ function App() {
   return (
     <>
       <Router>
+        {/* <Register/>
+        <Login/> */}
         <NavbarLink/>
           <Routes>
             <Route path='/OurTeam' element = { <OurTeam/>} />
@@ -33,6 +35,7 @@ function App() {
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
+            <Route path='/BookMentor' element = { <BookMentor/> } />
         </Routes>
         
       </Router>
