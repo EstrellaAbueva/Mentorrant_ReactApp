@@ -25,7 +25,7 @@ const Home = () => {
                     <div class="containers">
                         <img src={session2} class="photo"/>
                         <h1 className="display-5">
-                            <Link className="EbooksLink" to="/Ebooks">
+                            <Link className="sessionLink" to="/Session">
                                 <div class="text middle">
                                     Session
                                 </div>
