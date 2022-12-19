@@ -19,6 +19,7 @@ import Register from './Components/Register/Register';
 import Login from './Components/Login/Login';
 import Settings from './Components/Settings/Settings';
 import Password from './Components/Password/Password';
+import Session from './Components/Session/Session';
 
 function App() {
   return (
@@ -41,8 +42,9 @@ function App() {
             <Route path='/Settings' element = { <Settings/> } />
             <Route path='/Payment' element = { <Payment/> } />
             <Route path='/Password' element = { <Password/> } />
-            {/* <Route path='/BookMentor' element = { <BookMentor/> } /> */}
+            <Route path='/BookMentor' element = { <BookMentor/> } />
             <Route path='/Login' element= {<Login/>}/>
+            <Route path='/Session' element= {<Session/>}/>
         </Routes>
         
       </Router>
