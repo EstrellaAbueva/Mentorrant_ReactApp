@@ -22,9 +22,10 @@ const Login =() => {
                 </div>
                 <div className="action">
                     <button className="register-login">
-                        <Link className= "register-link" to = "/Register">
+                        {/* <Link className= "register-link" to = "/Register"> */}
                         Register
-                        </Link></button>
+                        {/* </Link> */}
+                        </button>
                     <button className="sign-in">Sign In</button>
                 </div>
             </form>
