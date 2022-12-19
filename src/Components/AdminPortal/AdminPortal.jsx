@@ -24,7 +24,10 @@ const AdminPortal = () => {
                         <img src={session} class="photo"/>
                         <h1 class="display-5">Access Courses</h1>
                         <br></br>
-                        <button type="button" class="but">Session</button>
+                        <button type="button" class="but">
+                            <Link className="CoursesAdmin" to="/CoursesAdmin">
+                                    Open
+                            </Link></button>
                     </div>
                 </div>
                 <br></br>
