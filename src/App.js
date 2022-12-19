@@ -20,6 +20,8 @@ import Login from './Components/Login/Login';
 import Settings from './Components/Settings/Settings';
 import Password from './Components/Password/Password';
 import Session from './Components/Session/Session';
+import Yam2 from './Components/Session/yam2session';
+import ViewHistory from './Components/Session/history';
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
             <Route path='/BookMentor' element = { <BookMentor/> } />
             <Route path='/Login' element= {<Login/>}/>
             <Route path='/Session' element= {<Session/>}/>
+            <Route path='/Yam2' element= {<Yam2/>}/>
+            <Route path='/history' element= {<ViewHistory/>}/>
         </Routes>
         
       </Router>
