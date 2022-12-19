@@ -8,7 +8,7 @@ import './OurTeam.css';
 
 const OurTeam = () => {
     return ( 
-        <div className="container">
+        <div className="container-md">
             <div className="flex">
                 <div className="row">
                     <div className="box">
