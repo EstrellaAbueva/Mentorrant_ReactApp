@@ -16,13 +16,15 @@ import EditMentee from './Components/EditMentee/EditMentee';
 import BookMentor from  './Components/MentorProfile/BookMentor';
 import AdminPortal from './Components/AdminPortal/AdminPortal';
 import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
+import BookMentor from './Components/MentorProfile/BookMentor';
+import Register from './Components/Register/Register';
+import Login from './Components/Login/Login';
+
 
 function App() {
   return (
     <>
       <Router>
-        {/* <Register/>
-        <Login/> */}
         <NavbarLink/>
         {/* <AdminPortal/> */}
           <Routes>

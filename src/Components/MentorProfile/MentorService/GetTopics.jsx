@@ -21,8 +21,8 @@ export default class GetTopics extends React.Component {
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">Subject</th>
                             <th scope="col">Course ID</th>
+                            <th scope="col">Subject</th>
                         </tr>
                     </thead>
                 {
@@ -30,8 +30,8 @@ export default class GetTopics extends React.Component {
                     .map(topics=>  
                         <tbody>
                         <tr>
-                            <td key={topics.subject}>{topics.subject}</td>
                             <td key={topics.courseid}>{topics.courseid}</td>
+                            <td key={topics.subject}>{topics.subject}</td>
                         </tr>
                         </tbody>        
                     )
