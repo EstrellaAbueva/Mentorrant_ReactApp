@@ -44,8 +44,8 @@ const MentorProfile = () => {
                                 </Modal.Header>
                                 <Modal.Body className = "message" >Are you sure you want to delete your Account?</Modal.Body>
                                 <Modal.Footer>
-                                <Button className="yes-delete" variant="secondary" onClick={handleClose}>
-                                    Yes
+                                <Button className="yes-delete" variant="secondary">
+                                    <Link className="homeLink" to="/Home">Yes</Link>
                                 </Button>
                                 <Button className = "no-delete" variant="primary" onClick={handleClose}>
                                     No
@@ -66,7 +66,7 @@ const MentorProfile = () => {
                     <GetTopics/>
                 </div>
 
-                <h5>MENTEES:</h5>
+                <h1>MENTEES:</h1>
 
                 <div className="details">
                     <GetMentees/>

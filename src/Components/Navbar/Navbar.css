@@ -30,7 +30,7 @@
 }
 
 .navbar .links {
-  background-color: #f8f9fa;
+  background-color: #f2f2f2;
   padding-top: 70px;
   margin-left: auto;
   max-width: fit-content;
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .container-fluid {
-  background-color: white;
+  background-color: #f2f2f2;
 }
 
 .middle-container {

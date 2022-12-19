@@ -28,7 +28,7 @@ const MenteeProfile = () => {
                     <Link className="settingsLink" to="/Settings"><img className = "pen" src = {settings} alt = "settings"/></Link>
                 </div>
 
-                <h1>ADRIAN JAY BARCENILLA</h1>
+                <h1>KENT STEPHEN SUMALINOG</h1>
 
                 <div className="details">
                     <GetMentees/>
