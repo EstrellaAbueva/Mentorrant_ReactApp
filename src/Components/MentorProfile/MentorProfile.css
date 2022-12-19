@@ -281,3 +281,27 @@ h5:hover {
     vertical-align:top;
     font-weight: bold;
 }
+
+/* delete button */
+.delete-profile{
+  margin-left: 80px;
+  padding: 5px;
+}
+
+.yes-delete{
+  background-color: red;
+  display: inline-block;
+}
+
+.no-delete{
+  background-color: green;
+  display: inline-block;
+}
+
+.deleteButton-mentor{
+  width: 30px;
+  height: 30px;
+  display: inline;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}

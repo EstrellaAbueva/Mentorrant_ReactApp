@@ -3,9 +3,7 @@ import Get from './EbooksService/GetEbooks';
 const Ebooks = () =>{
     return(
         <div class="container-fluid">
-            <figure class="text-center">
-                 <h1 class="display-1">Ebooks</h1>
-            </figure>
+            <h1 class="display-1">Ebooks</h1>
             <div class="container">
                 <div class="row">
                     <div class="col">

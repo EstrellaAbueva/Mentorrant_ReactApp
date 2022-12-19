@@ -20,9 +20,8 @@ function App() {
   return (
     <>
       <Router>
-        {/* <Register/>
-        <Login/> */}
         <NavbarLink/>
+        {/* <AdminPortal/> */}
           <Routes>
             <Route path='/OurTeam' element = { <OurTeam/>} />
             <Route path='/body' element = { <Body/> } />
