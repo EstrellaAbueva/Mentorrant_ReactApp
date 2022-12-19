@@ -5,7 +5,7 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  color: rgb(255, 255, 255);
 } 
 
 .navbar {
@@ -30,7 +30,7 @@
 }
 
 .navbar .links {
-  background-color: #f2f2f2;
+  background-color: #f8f9fa;
   padding-top: 70px;
   margin-left: auto;
   max-width: fit-content;
