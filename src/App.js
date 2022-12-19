@@ -16,7 +16,6 @@ import EditMentee from './Components/EditMentee/EditMentee';
 import BookMentor from  './Components/MentorProfile/BookMentor';
 import AdminPortal from './Components/AdminPortal/AdminPortal';
 import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
-import BookMentor from './Components/MentorProfile/BookMentor';
 import Register from './Components/Register/Register';
 import Login from './Components/Login/Login';
 
@@ -34,16 +33,15 @@ function App() {
             <Route path='/ContactUs' element = { <ContactUs/> } />
             <Route path='/Home' element = { <Home/> } />
             <Route path='/Ebooks' element = { <Ebooks/> } />
-            <Route path='/LandingPage' element = { <LandingPage/> } />
             <Route path='/Payment' element = { <Payment/> } />
             <Route path='/Subscription' element = { <Subscription/> } />
-            <Route path='/LandingPage' element = { <LandingPage/> } />
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
             <Route path='/BookMentor' element = { <BookMentor/> } />
             <Route path='/AdminPortal' element = { <AdminPortal/> } />
             <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
+            <Route path='/Login' element= {<Login/>}/>
         </Routes>
         
       </Router>
