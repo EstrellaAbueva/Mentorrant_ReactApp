@@ -45,7 +45,7 @@ const MentorProfile = () => {
                                 <Modal.Body className = "message" >Are you sure you want to delete your Account?</Modal.Body>
                                 <Modal.Footer>
                                 <Button className="yes-delete" variant="secondary">
-                                    <Link className="homeLink" to="/Home">Yes</Link>
+                                    <Link className="loginLink" to="/Login">Yes</Link>
                                 </Button>
                                 <Button className = "no-delete" variant="primary" onClick={handleClose}>
                                     No
