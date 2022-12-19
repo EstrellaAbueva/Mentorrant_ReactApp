@@ -13,13 +13,8 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
-import BookMentor from  './Components/MentorProfile/BookMentor';
-import AdminPortal from './Components/AdminPortal/AdminPortal';
-import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
-import BookMentor from './Components/MentorProfile/BookMentor';
-import Register from './Components/Register/Register';
-import Login from './Components/Login/Login';
-
+import Settings from './Components/Settings/Settings';
+import Password from './Components/Password/Password';
 
 function App() {
   return (
@@ -41,9 +36,10 @@ function App() {
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
-            <Route path='/BookMentor' element = { <BookMentor/> } />
-            <Route path='/AdminPortal' element = { <AdminPortal/> } />
-            <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
+            <Route path='/Settings' element = { <Settings/> } />
+            <Route path='/Payment' element = { <Payment/> } />
+            <Route path='/Password' element = { <Password/> } />
+            {/* <Route path='/BookMentor' element = { <BookMentor/> } /> */}
         </Routes>
         
       </Router>
