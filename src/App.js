@@ -16,6 +16,7 @@ import EditMentee from './Components/EditMentee/EditMentee';
 import BookMentor from  './Components/MentorProfile/BookMentor';
 import AdminPortal from './Components/AdminPortal/AdminPortal';
 import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
+import StudentsAdmin from './Components/AdminPortal/Links/StudentsAdmin';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <Route path='/BookMentor' element = { <BookMentor/> } />
             <Route path='/AdminPortal' element = { <AdminPortal/> } />
             <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
+            <Route path='/StudentsAdmin' element= {<StudentsAdmin/>}/>
         </Routes>
         
       </Router>

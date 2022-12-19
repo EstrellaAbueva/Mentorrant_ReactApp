@@ -15,7 +15,10 @@ const AdminPortal = () => {
                         <img src={matchMentor} class="photo"/>  
                         <h1 class="display-5">Access Students</h1>
                         <br></br>
-                        <button type="button" class="but">Match</button>
+                        <button type="button" class="but">
+                            <Link className="StudentsAdmin" to="/StudentsAdmin">
+                                    Edit
+                            </Link></button>
                     </div>
                     <div class="col">
                         <img src={session} class="photo"/>
