@@ -13,6 +13,9 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+// import BookMentor from './Components/BookMentor/BookMentor';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
 
 function App() {
   return (
@@ -35,7 +38,9 @@ function App() {
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
-            <Route path='/BookMentor' element = { <BookMentor/> } />
+            {/* <Route path='/BookMentor' element = { <BookMentor/> } /> */}
+            <Route path='/Login' element = { <Login/> } />
+            <Route exact path='/Register' element = { <Register/> } />
         </Routes>
         
       </Router>

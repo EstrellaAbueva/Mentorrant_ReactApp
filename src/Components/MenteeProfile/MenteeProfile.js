@@ -5,6 +5,7 @@ import settings from "./assets/settings.png";
 import ferson from "./assets/ferson.png";
 import { Link } from "react-router-dom";
 import GetMentees from "./MenteeService/GetMentees";
+import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
 
 import './MenteeProfile.css';
 
