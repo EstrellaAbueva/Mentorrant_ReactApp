@@ -13,6 +13,9 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+import BookMentor from  './Components/MentorProfile/BookMentor';
+import AdminPortal from './Components/AdminPortal/AdminPortal';
+import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
 import BookMentor from './Components/MentorProfile/BookMentor';
 import Register from './Components/Register/Register';
 import Login from './Components/Login/Login';
@@ -23,6 +26,7 @@ function App() {
     <>
       <Router>
         <NavbarLink/>
+        {/* <AdminPortal/> */}
           <Routes>
             <Route path='/OurTeam' element = { <OurTeam/>} />
             <Route path='/body' element = { <Body/> } />
@@ -38,8 +42,8 @@ function App() {
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
             <Route path='/BookMentor' element = { <BookMentor/> } />
-            <Route path='/Register' element = { <Register/> } />
-            <Route path='/Login' element = { <Login/> } />
+            <Route path='/AdminPortal' element = { <AdminPortal/> } />
+            <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
         </Routes>
         
       </Router>
