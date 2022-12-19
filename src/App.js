@@ -40,6 +40,7 @@ function App() {
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
             <Route path='/BookMentor' element = { <BookMentor/> } />
+            <Route path='/AdminPortal' element = { <AdminPortal/> } />
             <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
         </Routes>
         
