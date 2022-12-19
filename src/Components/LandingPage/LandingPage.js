@@ -1,5 +1,6 @@
 import './LandingPage.css';
 import mentorrantHighReso from "./assets/mentorrantHighReso.png";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return (
@@ -12,9 +13,9 @@ const LandingPage = () => {
           <div className = "column">
           <nav class="navbar">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Contact Us</a>
-              <a class="navbar-brand" href="#">Pricing</a>
-              <a class="navbar-brand" href="#">FAQ</a>
+              <Link className="link-a" to="/body">Our Services</Link>
+              <Link className="link-a" to="/OurTeam">Our Team</Link>
+              <Link className="link-a" to="/faq">FAQ</Link>
             </div>
           </nav>
           </div>
@@ -26,13 +27,23 @@ const LandingPage = () => {
               <div className = "column first">
                 <nav class="navbar bottom">
                   <div class="container-fluid">
-                    <a class="navbar-brand about-us" href="#">About Us</a>
+                    <Link className="contactUsLink" to="/ContactUs">
+                      About Us
+                    </Link>
                   </div>
                 </nav>
               </div>
               <div className = "column">
-                <button type="button" class="btn btn-info">Sign In</button>
-                <span className = "no-account">DON'T HAVE AN ACCOUNT?</span>
+                <button type="button" class="btn btn-info">
+                  <Link className="signInLink" to="/Register">
+                    Sign In
+                  </Link>
+                </button>
+                <span className = "no-account">
+                  <Link className="loginLink" to="/Login">
+                      DON'T HAVE AN ACCOUNT?
+                  </Link>
+                </span>
               </div>
             </div>
           </div>

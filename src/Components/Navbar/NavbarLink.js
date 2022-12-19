@@ -8,7 +8,7 @@ const NavbarLink = () => {
     return (
       <div className="container-sm">
         <img className ="logo" alt="" src= {mentorrantHighReso}/>
-        <nav className="navbar sticky-top bg-light"> 
+        <nav className="navbar"> 
             <h1><Link className="homeLink" to="/home">Mentorrant</Link></h1>
             <div className="links">
               <Link className="link-a" to="/body">Our Services</Link>
