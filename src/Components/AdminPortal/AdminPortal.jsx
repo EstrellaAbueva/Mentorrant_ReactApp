@@ -33,7 +33,7 @@ const AdminPortal = () => {
                         <h1 class="display-5">Access Ebooks</h1>
                         <br></br>
                         <button type="button" class="but">
-                            <Link className="EbooksAdminLink" to="../Ebooks/EbooksAdmin">
+                            <Link className="EbooksAdminLink" to="/EbooksAdmin">
                                     Ebooks
                             </Link>
                         </button>
