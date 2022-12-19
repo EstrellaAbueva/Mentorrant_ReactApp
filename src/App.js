@@ -21,8 +21,6 @@ function App() {
   return (
     <>
       <Router>
-        {/* <Register/>
-        <Login/> */}
         <NavbarLink/>
           <Routes>
             <Route path='/OurTeam' element = { <OurTeam/>} />
@@ -39,6 +37,8 @@ function App() {
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
             <Route path='/BookMentor' element = { <BookMentor/> } />
+            <Route path='/Register' element = { <Register/> } />
+            <Route path='/Login' element = { <Login/> } />
         </Routes>
         
       </Router>
