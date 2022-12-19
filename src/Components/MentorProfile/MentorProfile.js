@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import './MentorProfile.css';
 import GetMentors from "./MentorService/GetMentor";
 import GetTopics from "./MentorService/GetTopics";
+import GetMentees from "./MenteeService/GetMentees";
 
 const MentorProfile = () => {
     return (
@@ -42,7 +43,11 @@ const MentorProfile = () => {
 
                 <h5>MENTEES:</h5>
 
-                <table class="tg">
+                <div className="details">
+                    <GetMentees/>
+                </div>
+
+                {/* <table class="tg">
                     <thead>
                     <tr>
                         <th class="tg-0lax">ESTRELLA ABUEVA</th>
@@ -72,7 +77,7 @@ const MentorProfile = () => {
                         <td class="tg-0lax">1:22 p.m</td>
                     </tr>
                     </tbody>
-                    </table>
+                    </table> */}
 
                 <button className="bookMentor">
                     <Link className="bookMentorLink" to="/BookMentor">

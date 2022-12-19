@@ -13,6 +13,10 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+import BookMentor from './Components/MentorProfile/BookMentor';
+import Register from './Components/Register/Register';
+import Login from './Components/Login/Login';
+
 
 function App() {
   return (
