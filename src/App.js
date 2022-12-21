@@ -37,7 +37,6 @@ function App() {
             <Route path='/LandingPage' element = { <LandingPage/> } />
             <Route path='/Payment' element = { <Payment/> } />
             <Route path='/Subscription' element = { <Subscription/> } />
-            <Route path='/LandingPage' element = { <LandingPage/> } />
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />

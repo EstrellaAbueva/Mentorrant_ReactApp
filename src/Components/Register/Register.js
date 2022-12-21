@@ -4,6 +4,7 @@ import logo from './assets/logo-register.png'
 import { Link } from 'react-router-dom';
 
 const Register =() => {
+    const navigate = useNavigate();
     return(
         <div className="login">
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'/><link rel="stylesheet" href="./style.css"/>
@@ -23,7 +24,7 @@ const Register =() => {
                     </div>
                 </div>
                 <div className="action">
-                    <button className="signup-register">Sign Up</button>
+                    <button className="signup-register" onClick={() => navigate('/Home')}>Sign Up</button>
                 </div>
             </form>
         </div>

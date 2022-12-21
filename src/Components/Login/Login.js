@@ -6,12 +6,8 @@ import { Route } from 'react-router-dom';
 import OurTeam from '../../OurTeam';
 import Register from '../Register/Register';
 import { useNavigate } from 'react-router-dom';
-import { useRef, useState, useEffect, useContext } from "react";
+import { useState } from 'react';
 
-function transfer() {
-    console.log("hesasdfas");
-    this.navigate.push("../Register/Register");
-}
 
 async function searchAccount(name, password) {
     console.log("hello");
@@ -32,8 +28,8 @@ async function searchAccount(name, password) {
 
 const Login =() => {
     const navigate = useNavigate();
-    const [pwd, setPwd] = useState("");
-    const [email, setEmail] = useState("");
+    const [email, setEmail] = useState('');
+    const [password, setPsw] = useState('');
 
     return(
     <div className="login">
@@ -44,10 +40,10 @@ const Login =() => {
                 <img src={logo} alt="logo" className="logo-login" />
                 <div className="content">
                     <div className="input-field">
-                        <input type="email" id="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} value = {email} />
+                        <input type="email" id="email" placeholder="Email" autoComplete="nope" required />
                     </div>
                     <div className="input-field">
-                        <input type="password" id="password" placeholder="Password" onChange={(e) => setPwd(e.target.value)} value = {pwd} />
+                        <input type="password" id="password" placeholder="Password" autoComplete="new-password" required/>
                     </div>
                     <a href="#" className="forgotPassword">Forgot Your Password?</a>
                 </div>
@@ -55,7 +51,7 @@ const Login =() => {
                     <button className="register-login" onClick={() => navigate('/Register')}>
                         Register
                         </button>
-                    <button type="submit" className="sign-in" onClick={() => searchAccount(email, pwd)}>
+                    <button type="submit" className="sign-in" onClick={() => navigate('/Home')}>
                         Sign In
                     </button>
                 </div>
