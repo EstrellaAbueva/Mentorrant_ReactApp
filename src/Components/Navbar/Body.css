@@ -1,0 +1,37 @@
+.flex-container {
+  display: inline-flex;
+  margin-left: -150px;
+}
+  
+.flex-container div {
+  text-align: center;
+  margin: 20px 10px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.flex-container div h1 {
+  margin-top: 20px;
+}
+
+.flex-container div li {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+ul {
+  text-align: justify;
+  font-weight: bold;
+}
+
+.box1 {
+  flex: 1;
+}
+
+.box2 {
+  flex: 1;
+}
+
+.box3 {
+  flex: 1;
+}
