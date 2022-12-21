@@ -12,6 +12,8 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
 import BookMentor from  './Components/MentorProfile/BookMentor';
 import AdminPortal from './Components/AdminPortal/AdminPortal';
 import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
@@ -41,6 +43,8 @@ function App() {
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
+            <Route path='/Login' element = { <Login/> } />
+            <Route exact path='/Register' element = { <Register/> } />
             <Route path='/Settings' element = { <Settings/> } />
             <Route path='/Payment' element = { <Payment/> } />
             <Route path='/Password' element = { <Password/> } />
@@ -55,8 +59,6 @@ function App() {
 
     </>
   );
-    
- 
 }
 
 export default App;
