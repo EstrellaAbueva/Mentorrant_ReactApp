@@ -17,6 +17,8 @@ import Register from './Components/Register/Register';
 import BookMentor from  './Components/MentorProfile/BookMentor';
 import AdminPortal from './Components/AdminPortal/AdminPortal';
 import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
+import StudentsAdmin from './Components/AdminPortal/Links/StudentsAdmin';
+import CoursesAdmin from './Components/AdminPortal/Links/CoursesAdmin';
 import Register from './Components/Register/Register';
 import Login from './Components/Login/Login';
 import Settings from './Components/Settings/Settings';
@@ -53,6 +55,9 @@ function App() {
             <Route path='/Session' element= {<Session/>}/>
             <Route path='/Yam2' element= {<Yam2/>}/>
             <Route path='/history' element= {<ViewHistory/>}/>
+            <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
+            <Route path='/StudentsAdmin' element= {<StudentsAdmin/>}/>
+            <Route path='/CoursesAdmin' element= {<CoursesAdmin/>}/>
         </Routes>
         
       </Router>
