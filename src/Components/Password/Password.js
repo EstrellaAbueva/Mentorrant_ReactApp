@@ -14,7 +14,7 @@ const Password =() => {
                 <input type = "password" id = "new-password" name = "new-password" placeholder="Enter New Password" required className="new-password" />
                 
             </form>
-            <button>
+            <button className="button-password">
                 Submit
             </button> 
             <hr/>
