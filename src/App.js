@@ -12,9 +12,13 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
 import BookMentor from  './Components/MentorProfile/BookMentor';
 import AdminPortal from './Components/AdminPortal/AdminPortal';
 import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
+import StudentsAdmin from './Components/AdminPortal/Links/StudentsAdmin';
+import CoursesAdmin from './Components/AdminPortal/Links/CoursesAdmin';
 import Register from './Components/Register/Register';
 import Login from './Components/Login/Login';
 import Settings from './Components/Settings/Settings';
@@ -41,6 +45,8 @@ function App() {
             <Route path='/MentorProfile' element = { <MentorProfile/> } />
             <Route path='/MenteeProfile' element = { <MenteeProfile/> } />
             <Route path='/EditMentee' element = { <EditMentee/> } />
+            <Route path='/Login' element = { <Login/> } />
+            <Route exact path='/Register' element = { <Register/> } />
             <Route path='/Settings' element = { <Settings/> } />
             <Route path='/Payment' element = { <Payment/> } />
             <Route path='/Password' element = { <Password/> } />
@@ -49,14 +55,15 @@ function App() {
             <Route path='/Session' element= {<Session/>}/>
             <Route path='/Yam2' element= {<Yam2/>}/>
             <Route path='/history' element= {<ViewHistory/>}/>
+            <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
+            <Route path='/StudentsAdmin' element= {<StudentsAdmin/>}/>
+            <Route path='/CoursesAdmin' element= {<CoursesAdmin/>}/>
         </Routes>
         
       </Router>
 
     </>
   );
-    
- 
 }
 
 export default App;
