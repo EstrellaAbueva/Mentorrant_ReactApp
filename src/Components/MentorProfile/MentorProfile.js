@@ -8,6 +8,11 @@ import deleteButton from './assets/deleteProfile.png';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Rate from './assets/comment.png'
+
+import Button1 from 'react-bootstrap/Button';
+import Modal1 from 'react-bootstrap/Modal';
+import Rate1 from './assets/comment.png'
 
 import './MentorProfile.css';
 import GetMentors from "./MentorService/GetMentor";
@@ -19,6 +24,11 @@ const MentorProfile = () => {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const [show1, setShow1] = useState(false);
+
+    const handleClose1 = () => setShow1(false);
+    const handleShow1 = () => setShow1(true);
     return (
         <div className="general-profile-mentor">
             { <figure className="home_button">
@@ -52,6 +62,27 @@ const MentorProfile = () => {
                                 </Button>   
                                 </Modal.Footer>
                             </Modal>
+                        <img className = "rate-mentor" src = {Rate} variant = "primary" onClick={handleShow1}/>
+                            <Modal1 show={show1} onHide={handleClose1}>
+                                    <Modal1.Header closeButton>
+                                        <div className="rateMentor-rate">
+                                            <Modal1.Title > <strong>Rate Mentor</strong></Modal1.Title>
+                                        </div>
+                                    </Modal1.Header>
+                                    <Modal1.Body className = "message-rate" >Rate Your Mentor over 5 according to your satisfaction.
+                                    <form>
+                                    <input type="number" className="mentor-rating" min = "1" max = "5"/>
+                                    </form>
+                                    </Modal1.Body>
+                                    <Modal1.Footer>
+                                    <Button1 className="yes-delete" variant="secondary">
+                                        <Link className="loginLink" to="/Login">Submit</Link>
+                                    </Button1>
+                                    <Button1 className = "no-delete" variant="primary" onClick={handleClose1}>
+                                        Cancel
+                                    </Button1>   
+                                    </Modal1.Footer>
+                                </Modal1>
                     </div>
 
                 <h1>ADRIAN JAY BARCENILLA</h1>
