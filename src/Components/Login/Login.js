@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './Login.css'
-import logo from './Assets/logo-login.png';
+import logo from './assets/logo-login.png';
 import { Route } from 'react-router-dom';
 import OurTeam from '../../OurTeam';
 import Register from '../Register/Register';
