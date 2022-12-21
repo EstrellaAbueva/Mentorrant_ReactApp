@@ -27,7 +27,9 @@ const EditMentee = () => {
                 </form>
 
             <button className="backButton">
-                Save
+                <Link to="/Save">
+                    Save
+                </Link>
             </button>
 
             <button className="backButton">

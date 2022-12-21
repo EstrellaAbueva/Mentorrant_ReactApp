@@ -1,3 +1,8 @@
+import mentorrantHighReso from "./assets/mentorrantHighReso.png";
+import home from './assets/home.png';
+import pen from "./assets/pen.png";
+import settings from "./assets/settings.png";
+import ferson from "./assets/ferson.png";
 import { Link } from "react-router-dom";
 
 import './EditMentee.css';
@@ -23,7 +28,7 @@ const Save = () => {
 
                 <h1>UPDATES SAVED</h1>
 
-                <button className="saveButton">
+                <button className="backButton">
                     <Link className="mentorLink" to="/MentorProfile">
                         Back
                     </Link>
@@ -34,4 +39,4 @@ const Save = () => {
     );
 }
 
-export default BookMentor;
+export default Save;
