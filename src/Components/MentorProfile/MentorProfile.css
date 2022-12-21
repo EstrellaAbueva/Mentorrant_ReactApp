@@ -305,3 +305,25 @@ h5:hover {
   margin-left: 20px;
   margin-bottom: 5px;
 }
+
+.rate-mentor{
+  height: 30px;
+  width: 30px;
+  display: inline;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.message-rate{
+  align-items: center;
+  text-align: center;
+}
+
+.rateMentor-rate{
+  margin-left: 80px;
+  font-size: 10px;
+}
+
+.mentor-rating{
+  width: 20px;
+}
