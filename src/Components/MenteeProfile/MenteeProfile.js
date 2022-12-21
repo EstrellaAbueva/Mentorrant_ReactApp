@@ -46,8 +46,8 @@ const MenteeProfile = () => {
                             </Modal.Header>
                             <Modal.Body className = "message" >Are you sure you want to delete your Account?</Modal.Body>
                             <Modal.Footer>
-                            <Button className="yes-delete" variant="secondary" onClick={handleClose}>
-                                Yes
+                            <Button className="yes-delete" variant="secondary">
+                                <Link className="loginLink" to="/Login">Yes</Link>
                             </Button>
                             <Button className = "no-delete" variant="primary" onClick={handleClose}>
                                 No
@@ -56,7 +56,7 @@ const MenteeProfile = () => {
                         </Modal>
                 </div>
 
-                <h1>ADRIAN JAY BARCENILLA</h1>
+                <h1>KENT STEPHEN SUMALINOG</h1>
 
                 <div className="details">
                     <GetMentees/>

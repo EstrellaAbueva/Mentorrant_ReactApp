@@ -1,140 +1,23 @@
-:root {
-    --font-family: "Oswald", sans-serif;
-    --darker-blue: rgb(5, 30, 43);
+.setting-pic {
+    width: 350px;
+    height: 300px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.flex-container-set {
+    display: inline-flex;
 }
 
-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-height: 100%;
-    font-family: var(--font-family);
-    overflow: hidden;
+.box-set {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 30px;
 }
 
-/* img {
-    display: block;
-    width: 70px;
-} */
 
-.home_button img{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 100px;
-    margin-top: 2%;
-    margin-right: 2%;
-}
-
-.dashboard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 20rem;
-    height: 100vh;
-    padding: 2rem;
-    background-color: white;
-    box-shadow: 2px 0 3px var(--darker-blue);
-    margin-left: 2%;
-}
-
-.main_logo {
-    width: 15rem;
-}
-
-.dashboard_selection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 17rem;
-    height: 4rem;
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color:  rgb(250, 237, 205);
-    border-radius: 5px;
-}
-
-.dashboard_icon {
-    margin-top:10px;
-    width: 3rem;
-}
-
-.dashboard_selection p {
-    margin-left: 0.8rem;
-    font-size: 1.3rem;
-    color: var(--darker-blue);
-}
-
-/* || Settings Pane */
-.settings_panel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 8rem;
-    width: 15rem;
-}
-
-.settings_section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-    margin-top: 1.3rem;
-    border-top: 2px solid black;
-}
-
-.setting_icons {
-    width: 30px;
-}
-
-.settings_section .section_title {
-    font-size: 1.3rem;
+.p-set {
+    margin-bottom: -10px;
+    margin-top: 10px;
     font-weight: bold;
-}
-
-.settings_section p {
-    margin-top: 0.5rem;
-}
-
-.logout_button {
-    width: 100%;
-    padding-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 1.3rem;
-    color: red;
-    border-top: 2px solid black;
-}
-
-/* || Additional Section */
-.container {
-    width: 45rem;
-    height: 36rem;
-    margin-top: 13.7rem;
-    background-color: var(--darker-blue);
-}
-
-/* || Hover States */
-.dashboard_selection:hover {
-    background-color: #CAF0F8; 
-    font-weight: bold;
-    color: whitesmoke;
-    cursor: pointer;
-}
-
-.settings_section p:hover {
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.logout_button:hover {
-    padding-top: 0.8rem;
-    font-weight: bold;
-    cursor: pointer;
 }

@@ -1,6 +1,5 @@
 import "./Subscription.css";
 import React from 'react';
-import logo from './assets/logo.png'
 import questionMark from './assets/question-mark.png'
 
 const Subscription =() => {
