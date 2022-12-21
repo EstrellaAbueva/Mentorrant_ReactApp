@@ -12,8 +12,6 @@ import Subscription from './Components/Payment/Subscription';
 import MenteeProfile from './Components/MenteeProfile/MenteeProfile';
 import MentorProfile from './Components/MentorProfile/MentorProfile';
 import EditMentee from './Components/EditMentee/EditMentee';
-import Login from './Components/Login/Login';
-import Register from './Components/Register/Register';
 import BookMentor from  './Components/MentorProfile/BookMentor';
 import AdminPortal from './Components/AdminPortal/AdminPortal';
 import EbooksAdmin from './Components/Ebooks/EbooksAdmin';
@@ -26,6 +24,7 @@ import Password from './Components/Password/Password';
 import Session from './Components/Session/Session';
 import Yam2 from './Components/Session/yam2session';
 import ViewHistory from './Components/Session/history';
+import Save from './Components/EditMentee/Save';
 
 function App() {
   return (
@@ -58,6 +57,7 @@ function App() {
             <Route path='/EbooksAdmin' element= {<EbooksAdmin/>}/>
             <Route path='/StudentsAdmin' element= {<StudentsAdmin/>}/>
             <Route path='/CoursesAdmin' element= {<CoursesAdmin/>}/>
+            <Route path='/Save' element= {<Save/>}/>
         </Routes>
         
       </Router>

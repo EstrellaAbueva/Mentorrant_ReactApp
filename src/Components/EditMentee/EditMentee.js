@@ -31,7 +31,9 @@ const EditMentee = () => {
             </button>
 
             <button className="backButton">
-                <Link to="/MenteeProfile">Back</Link>
+                <Link to="/MenteeProfile">
+                    Back
+                </Link>
             </button>
 
             </div>
